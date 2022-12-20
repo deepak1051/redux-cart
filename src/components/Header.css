@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(214, 255, 241);
+  padding: 0.4rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.6);
+}
+.header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+}
+.header__title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+.header__title span {
+  color: deeppink;
+}
+.header__logo {
+  width: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}

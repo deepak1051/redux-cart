@@ -1,0 +1,46 @@
+.repo-container{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:1rem;
+  /* padding:5px 2rem; */
+  /* background-color: #333; */
+}
+.repo-card{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  background-color: #333;
+  color:white;
+  padding:1rem;
+  border-radius: .4rem;
+  min-width: 90vw !important;
+  min-height: 120px;
+  /* background-color: #171515 !important; */
+}
+
+.card__name h2{
+  color:dodgerblue;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.card__name p{
+  font-size: 1rem;
+}
+
+.card__contents{
+  display: flex;
+  align-items: center;
+  gap:1rem;
+}
+
+
+.card__contents-box{
+  display: flex;
+  align-items: center;
+  gap:0.2rem;
+}
+.back-button{
+  cursor: pointer;
+}
+

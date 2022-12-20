@@ -1,0 +1,29 @@
+.footer__para{
+  padding:1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  background-color: teal;
+}
+
+.footer__para{
+  
+  font-size:1.4rem;
+  color:white;
+  
+}
+.footer__para span{
+  font-weight: bold;
+  color:deeppink;
+  font-style:italic ;
+  padding-left: 10px;
+}
+
+@media screen and (max-width:768px){
+  .footer__para{
+    padding:0.4rem;
+    font-size: 1rem;
+  }
+  
+}
